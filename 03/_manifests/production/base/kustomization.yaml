@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- ../../../datetime/overlays/production
+
+namespace: production
+
+commonLabels:
+  managed-by: kustomize
+  environment: production

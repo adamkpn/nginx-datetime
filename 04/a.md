@@ -1,0 +1,2 @@
+- In general to check if our Container is working as expected, we have added the Readiness/Liveness probes
+- This will ensure that the Container is running and serving clients
